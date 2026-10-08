@@ -1,0 +1,7 @@
+{
+  "standard": "c2sim",
+  "version": "OpenC2SIM-SMX-LOX-1.0.1",
+  "namespaces": {"c": "http://www.sisostds.org/schemas/C2SIM/1.1"},
+  "rules": [{"select": "/c:MessageBody/c:SystemCommandBody",
+             "id": "string(c:SystemCommandTypeCode)", "type": "Event"}]
+}

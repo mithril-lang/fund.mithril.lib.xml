@@ -1,0 +1,7 @@
+{
+  "standard": "msdl",
+  "version": "SISO-STD-007-2008",
+  "namespaces": {"m": "urn:sisostds:scenario:military:data:draft:msdl:1"},
+  "rules": [{"select": "/m:MilitaryScenario/m:Organizations/m:Units/m:Unit",
+             "id": "string(m:ObjectHandle)", "type": "Unit"}]
+}

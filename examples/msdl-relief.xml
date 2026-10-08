@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MilitaryScenario xmlns="urn:sisostds:scenario:military:data:draft:msdl:1"
+                  xmlns:modelID="http://www.sisostds.org/schemas/modelID">
+  <ScenarioID><modelID:name>Relief exercise</modelID:name></ScenarioID>
+  <Options><MSDLVersion>MSDL Standard Nov 2008</MSDLVersion></Options>
+  <Environment/>
+  <ForceSides/>
+  <Organizations><Units><Unit>
+    <ObjectHandle>relief-team</ObjectHandle><Name>Relief team</Name>
+  </Unit></Units><Equipment/></Organizations>
+  <Overlays/><Installations/><TacticalGraphics/><MOOTWGraphics/>
+</MilitaryScenario>
