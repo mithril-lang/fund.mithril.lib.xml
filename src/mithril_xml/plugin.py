@@ -17,7 +17,7 @@ def call(request):
     raise Refusal("unsupported plugin operation")
 
 class Plugin:
-    id = "fund.mithril.xml"
+    id = "fund.mithril.lib.xml"
     rpc_version = 1
     operations = ('xml-import', 'xml-export', 'xml-patch', 'xml-project')
     call = staticmethod(call)

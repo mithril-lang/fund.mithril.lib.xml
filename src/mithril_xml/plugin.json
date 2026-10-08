@@ -1,7 +1,7 @@
 {
-  "schema": "fund.mithril.interop.plugin.v1",
-  "id": "fund.mithril.xml",
-  "version": "0.2.0",
+  "schema": "fund.mithril.lib.interop.plugin.v1",
+  "id": "fund.mithril.lib.xml",
+  "version": "0.3.0",
   "rpcVersion": 1,
   "entryPoint": "mithril_xml.plugin:Plugin",
   "operations": [
@@ -10,7 +10,7 @@
     "xml-patch",
     "xml-project"
   ],
-  "standard": "fund.mithril.xml",
+  "standard": "fund.mithril.lib.xml",
   "effects": {
     "network": false,
     "nativeProcess": false,
