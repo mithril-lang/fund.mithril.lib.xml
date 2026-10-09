@@ -4,9 +4,9 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "fund-mithril-lib-xml"
-version = "0.3.0"
+version = "0.4.0"
 requires-python = ">=3.11"
-dependencies = ["fund-mithril-lib-interop @ git+https://github.com/mithril-lang/fund.mithril.lib.interop.git@8ec10c56678eb6508515e2eafdb41ace4866a654", "lxml==6.1.3", "xmlschema==4.3.2"]
+dependencies = ["fund-mithril-lib-interop @ git+https://github.com/mithril-lang/fund.mithril.lib.interop.git@c622e7ad4ca862416c80c11508ccdb636abd3835", "lxml==6.1.3", "xmlschema==4.3.2"]
 
 [project.entry-points."mithril.interop.plugins"]
 "fund.mithril.lib.xml" = "mithril_xml.plugin:Plugin"
@@ -15,4 +15,4 @@ dependencies = ["fund-mithril-lib-interop @ git+https://github.com/mithril-lang/
 where = ["src"]
 
 [tool.setuptools.package-data]
-"*" = ["*.json", "*.xml"]
+"*" = ["*.json", "*.xml", "*.cljk", "*.kotoba", "*.mith"]

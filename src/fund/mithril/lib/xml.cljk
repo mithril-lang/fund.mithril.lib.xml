@@ -1,0 +1,8 @@
+(ns fund.mithril.lib.xml
+  (:refer-clojure :exclude [resolve])
+  (:require [fund.mithril.lib.interop :as host]))
+(def library-id "fund.mithril.lib.xml")
+(def operations #{"xml-import" "xml-export" "xml-patch" "xml-project"})
+(defn resolve [transport] (host/resolve-library transport library-id))
+(defn invoke! [transport member arguments]
+  (host/invoke-library transport library-id operations member arguments))

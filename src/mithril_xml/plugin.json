@@ -1,7 +1,7 @@
 {
   "schema": "fund.mithril.lib.interop.plugin.v1",
   "id": "fund.mithril.lib.xml",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "rpcVersion": 1,
   "entryPoint": "mithril_xml.plugin:Plugin",
   "operations": [
@@ -15,5 +15,7 @@
     "network": false,
     "nativeProcess": false,
     "rf": false
-  }
+  },
+  "libraryId": "fund.mithril.lib.xml",
+  "repository": "https://github.com/mithril-lang/fund.mithril.lib.xml"
 }

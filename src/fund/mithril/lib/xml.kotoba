@@ -1,0 +1,9 @@
+(ns fund.mithril.lib.xml (:export [library-id library-iri accepts request]))
+(defn library-id [] :string "fund.mithril.lib.xml")
+(defn library-iri [] :string "https://mithril.fund/lib/fund.mithril.lib.xml")
+(defn accepts [member :string] :i64 (if (= (string-compare member "xml-import") 0) 1 (if (= (string-compare member "xml-export") 0) 1 (if (= (string-compare member "xml-patch") 0) 1 (if (= (string-compare member "xml-project") 0) 1 0)))))
+(defn request [member :string arguments-json :string] :string
+  (if (= (accepts member) 1)
+    (string-concat "{\"operation\":\"library-call\",\"libraryId\":\"fund.mithril.lib.xml\",\"member\":\""
+      (string-concat member (string-concat "\",\"arguments\":" (string-concat arguments-json "}"))))
+    "{\"operation\":\"invalid-library-member\"}"))

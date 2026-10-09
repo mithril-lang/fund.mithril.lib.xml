@@ -1,0 +1,16 @@
+{
+  "@context": "https://mithril.fund/context/v1",
+  "@id": "https://mithril.fund/ontology/native-library-v1",
+  "@type": "Ontology",
+  "profile": [
+    "https://www.w3.org/TR/owl2-profiles/#OWL_2_RL",
+    "https://www.w3.org/TR/rdf11-concepts/",
+    "https://www.w3.org/TR/shacl/"
+  ],
+  "@graph": [
+    {
+      "@id": "https://mithril.fund/ns/native-library/v1#Binding",
+      "@type": "http://www.w3.org/2000/01/rdf-schema#Class"
+    }
+  ]
+}

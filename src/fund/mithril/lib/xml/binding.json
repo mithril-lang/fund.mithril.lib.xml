@@ -1,0 +1,26 @@
+{
+  "schema": "fund.mithril.lib.binding.v1",
+  "libraryId": "fund.mithril.lib.xml",
+  "pluginId": "fund.mithril.lib.xml",
+  "repository": "https://github.com/mithril-lang/fund.mithril.lib.xml",
+  "iri": "https://mithril.fund/lib/fund.mithril.lib.xml",
+  "rpcVersion": 1,
+  "operations": [
+    "xml-import",
+    "xml-export",
+    "xml-patch",
+    "xml-project"
+  ],
+  "effects": {
+    "network": false,
+    "nativeProcess": false,
+    "rf": false
+  },
+  "adapters": {
+    "python": "fund.mithril.lib.xml",
+    "hy": "fund.mithril.lib.xml",
+    "cljk": "fund.mithril.lib.xml",
+    "mith": "fund.mithril.lib.xml",
+    "kotoba": "fund.mithril.lib.xml"
+  }
+}

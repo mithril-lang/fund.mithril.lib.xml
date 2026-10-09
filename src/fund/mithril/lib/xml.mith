@@ -1,0 +1,33 @@
+{
+  "@context": "https://mithril.fund/context/v1",
+  "@id": "https://mithril.fund/lib/fund.mithril.lib.xml",
+  "@type": "Library",
+  "ontology": "06aaeed000c03b721496fbcfe19ee3212ed8f17eeefb79b44d5b9e3c86c1ab64",
+  "version": 1,
+  "exports": [
+    {
+      "symbol": "https://mithril.fund/lib/fund.mithril.lib.xml/operation/xml-import",
+      "kind": "mith:handler",
+      "label": "xml-import",
+      "confidenceFloor": 10000
+    },
+    {
+      "symbol": "https://mithril.fund/lib/fund.mithril.lib.xml/operation/xml-export",
+      "kind": "mith:handler",
+      "label": "xml-export",
+      "confidenceFloor": 10000
+    },
+    {
+      "symbol": "https://mithril.fund/lib/fund.mithril.lib.xml/operation/xml-patch",
+      "kind": "mith:handler",
+      "label": "xml-patch",
+      "confidenceFloor": 10000
+    },
+    {
+      "symbol": "https://mithril.fund/lib/fund.mithril.lib.xml/operation/xml-project",
+      "kind": "mith:handler",
+      "label": "xml-project",
+      "confidenceFloor": 10000
+    }
+  ]
+}
